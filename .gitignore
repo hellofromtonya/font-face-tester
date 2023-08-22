@@ -1,0 +1,15 @@
+# Directories/files that may appear in your environment
+*.log
+/composer.lock
+
+# The /.cache folder is needed for phpcs to cache results between runs, while other .cache folders must be ignored
+# It is not possible to re-include a file if a parent directory of that file is excluded
+# So, both /.cache and /.cache./.gitkeep must be re-included
+.cache
+!/.cache/
+/.cache/**
+!/.cache/.gitkeep
+
+# Operating system specific files
+.DS_Store
+Thumbs.db
