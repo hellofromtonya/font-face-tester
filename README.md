@@ -10,6 +10,6 @@ To clone the repo:
 3. Then activate the plugin in your test site's admin area.
 
 To download a zip:
-1. Click to download the zip version of this repo.
+1. Select Code > Download Zip.
 2. Then in your local dev environment, go to Plugins > Add New > and then select the downloaded zip to add.
 3. Then activate the plugin in your test site's admin area.
