@@ -8,6 +8,10 @@
  * Version: 1.0.0
  */
 
+if ( ! function_exists( 'wp_print_font_faces' ) ) {
+	return;
+}
+
 add_action( 'wp_head', 'fontfacetester_print_fonts', 50 );
 add_action( 'admin_print_styles', 'fontfacetester_print_fonts', 50 );
 function fontfacetester_print_fonts() {
